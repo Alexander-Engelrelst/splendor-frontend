@@ -88,6 +88,7 @@ section, .join-by-id {
     box-sizing: border-box;
     background-image: url("../images/join_game_background.webp"), url("../images/fallback/join_game_background.png");
     background-size: contain;
+    background-repeat: no-repeat;
 }
 
 div.join-by-id {
