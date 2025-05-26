@@ -1,5 +1,5 @@
 import { fetchFromServer } from "./data-connector/api-communication-abstractor.js";
-import {deleteFromStorage, loadFromStorage} from "./data-connector/local-storage-abstractor.js";
+import { deleteFromStorage, loadFromStorage } from "./data-connector/local-storage-abstractor.js";
 import { checkCompatibility } from "./server-version-component/server-version.js";
 import { NPC_SUFFIX } from "./config.js";
 import { handleGameDataError } from "./board-component/game-data-handler.js";
