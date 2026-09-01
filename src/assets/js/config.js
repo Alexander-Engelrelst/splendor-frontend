@@ -1,11 +1,8 @@
-const GROUP_NUMBER = "04";
-const GROUP_TOKEN = "Group4-9486-769";
+const GROUP_TOKEN = "";
 
 const ERROR_HANDLER_SELECTOR = ".errormessages p";
 
 const LOCAL_SERVER = "http://localhost:8080";
-const DEPLOYED_SERVER = "https://project-1.ti.howest.be/2024-2025/splendor/api";
-const GROUP_DEPLOYED_SERVER = `https://project-1.ti.howest.be/2024-2025/group-${GROUP_NUMBER}/api`;
 
 const MAX_PRESTIGE_POINTS = 15;
 const NUMBER_OF_PLAYERS_IN_BOT_GAME = 4;
@@ -21,7 +18,7 @@ const ERROR_MESSAGE_TIMEOUT = 10000;
 const NPC_SUFFIX = "w817s2JgYDTjTR6x";
 
 function getAPIUrl() {
-    return GROUP_DEPLOYED_SERVER;
+    return LOCAL_SERVER;
 }
 
 export {
