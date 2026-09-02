@@ -28,14 +28,10 @@ The configuration of the game can be changed in the `config.js` file. Currently 
 
 ## Key Highlights
 - **Game State Machine:** Clean flow control managing client-side game states: [state-machine.js](src/assets/js/board-component/state-machine/state-machine.js)
-- **FLIP Animation Engine:** Custom library built to handle complex smooth state transitions using FLIP principles: [animation-handler.js](src/assets/js/board-component/animation-component/animation-handler.js)
-- **Animation Template Engine:** Lightweight template renderer for dynamic variable and function injection into UI animations: [template-renderer.js](src/assets/js/board-component/animation-component/template-renderer.js)
-- **Tree-Structured Card Storage:** Memory-optimized tree data structure used to manage collected player cards: [card-collection.js](src/assets/js/card-collection-component/card-collection.js)
 - **Centralized API Client:** Unified abstraction layer for server communication: [api.js](src/assets/js/api.js)
 - **Multifunctional Action Interface:** Context-aware UI button handling dynamic player actions: [game-status-interface.js](src/assets/js/board-component/game-status-interface.js)
-- **Custom Cryptography & Utilities:** Synchronous SHA-256 hash utility ([crypto.js](src/assets/js/utils/crypto.js)) and dynamic lobby invite link generator ([handler.js](src/assets/js/lobby-component/handler.js)).
-- **Audio Engine:** Custom sound effects subsystem: [sound.js](src/assets/js/sound-component/sound.js)
-- **Code Quality & Style:** Configured ESLint rules for codebase consistency: [eslint.config.mjs](eslint.config.mjs)
+- **Custom Cryptography & Utilities:** Synchronous SHA-256 hash utility 
+- **Sharing Link**: Dynamically generated sharing link to allow easier joining of a specific game lobby: ([handler.js](src/assets/js/lobby-component/handler.js))
 
 All assets are custom-made with inspiration drawn from the internet.
 
