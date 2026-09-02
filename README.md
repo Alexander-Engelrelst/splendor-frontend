@@ -30,8 +30,9 @@ The configuration of the game can be changed in the `config.js` file. Currently 
 - **Game State Machine:** Clean flow control managing client-side game states: [state-machine.js](src/assets/js/board-component/state-machine/state-machine.js)
 - **Centralized API Client:** Unified abstraction layer for server communication: [api.js](src/assets/js/api.js)
 - **Multifunctional Action Interface:** Context-aware UI button handling dynamic player actions: [game-status-interface.js](src/assets/js/board-component/game-status-interface.js)
-- **Custom Cryptography & Utilities:** Synchronous SHA-256 hash utility 
+
 - **Sharing Link**: Dynamically generated sharing link to allow easier joining of a specific game lobby: ([handler.js](src/assets/js/lobby-component/handler.js))
+- **Round Timer**: Countdown timer for a player during his turn: ([game-data-handler.js](src/assets/js/board-component/game-data-handler.js))
 
 All assets are custom-made with inspiration drawn from the internet.
 
