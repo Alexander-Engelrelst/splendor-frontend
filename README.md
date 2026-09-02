@@ -5,7 +5,7 @@
 This repository contains the frontend implementation for the Splendor board game.
 
 * **Backend Repository:** [Alexander-Engelrelst/splendor-backend](https://github.com/Alexander-Engelrelst/splendor-backend)
-* **Live Demo:** [Watch a demo of a piece of the game](https://www.loom.com/share/d156d120143a4d4a81d36eae74e5b5ba)
+* **Live Demo:** [Watch a demo of a piece of the game](https://youtu.be/x2l8bf_vZPw)
 ## Credits
 * **Team:** Developed by
   * [Alexander Engelrelst](https://github.com/Alexander-Engelrelst)
